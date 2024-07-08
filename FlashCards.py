@@ -36,9 +36,6 @@ def get_rand_answer(connection, subject,ID):
     for row in output:
         return row[0]
 
-def print_card():
-    pass
-
 def get_randNum(length):
     num = random.randint(1,length)
     return num
